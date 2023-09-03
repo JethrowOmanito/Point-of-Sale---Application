@@ -1,0 +1,52 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Aug 23, 2023, 1:24:50 AM
+    Author     : Jethrow Cruz
+*/
+.left-form{
+    -fx-background-color:linear-gradient(to bottom right,#23825e,#6d6e30);
+    -fx-border-color:#000;
+    -fx-border-width:.4px 0px .4px .4px;
+    
+}
+.right-form{
+    -fx-background-color:#fff;
+    -fx-border-color:#000;
+    -fx-border-width:.4px .4px .4px 0px;
+    
+}
+.textfield{
+     -fx-background-color: linear-gradient(to bottom right, #23825e, #5a2727);
+    -fx-background-radius:4px;
+    -fx-border-color: #000;
+    -fx-border-radius:4px;
+    -fx-border-width: 0.4px;
+    -fx-font-size:13px;
+    -fx-font-family:"Tahoma";
+}
+
+.login-btn{
+    -fx-background-color: linear-gradient(to bottom, #1c9396, #24b55a);
+    -fx-background-radius:4px;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+    -fx-font-family:"Arial";
+    -fx-cursor:hand;
+}
+.login-btn:hover{
+    -fx-background-color:linear-gradient(to bottom, #19b17c,#1f7569);
+}
+
+
+.close{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+
+.close:hover{
+    -fx-background-color:#f43f57;
+}
+
